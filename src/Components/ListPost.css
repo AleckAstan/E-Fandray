@@ -1,0 +1,65 @@
+.singlePost {
+  width: 100%;
+  -webkitbox-shadow: 3px 6px 9px -8px rgba(17, 17, 17, 0.7);
+  box-shadow: 3px 6px 9px -8px rgba(17, 17, 17, 0.7);
+  border-radius: 0.7rem;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+.singlePostWrapper {
+  padding: 1rem;
+}
+.singlePostTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.singlePostTopLeft {
+  display: flex;
+  align-items: center;
+}
+.singlePostProfilImage {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.singlePostUsername {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0.1rem;
+  cursor: pointer;
+}
+.singlePostTime {
+  font-size: 0.7rem;
+  color: rgb(61, 61, 61);
+  margin-left: 1rem;
+  margin-top: 2px;
+}
+.singlePostCenter {
+  margin: 1rem 0;
+}
+.singlePostImage {
+  margin-top: 1rem;
+  width: 100%;
+  height: 18rem;
+  object-fit: contain;
+}
+.singlePostBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.singlePostBottomLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.like {
+  color: rgb(127, 118, 255);
+}
+.favorite {
+  color: rgb(253, 97, 97);
+}

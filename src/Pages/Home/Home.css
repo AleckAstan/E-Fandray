@@ -1,0 +1,19 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  margin-top: 3rem;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Firefox */
+}

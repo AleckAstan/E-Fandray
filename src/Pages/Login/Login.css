@@ -1,0 +1,67 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right top,
+    rgb(255, 116, 116),
+    rgb(153, 146, 255)
+  );
+}
+.ellipse1 {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  background-color: rgb(255, 117, 117);
+  position: fixed;
+  top: 15%;
+  right: 20%;
+}
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginBox {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 2;
+  padding: 2rem 2rem;
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 3px 6px 9px -8px rgba(17, 17, 17, 0.7);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 3rem;
+  align-items: center;
+}
+.loginInput,
+.loginButton {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+}
+.loginButton {
+  background-color: rgb(255, 241, 241);
+}
+.loginLogo {
+  font-size: 5rem;
+}

@@ -1,0 +1,22 @@
+.sideBar {
+  flex: 2.5;
+  overflow-y: scroll;
+  height: calc(100vh - 3rem);
+}
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa;
+}
+.sideBarList {
+  padding: 2rem;
+}
+.sideBarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}

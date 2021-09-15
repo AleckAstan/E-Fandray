@@ -1,0 +1,71 @@
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.topBarContainer {
+  height: 3rem;
+  top: 0;
+  background: linear-gradient(to right, rgb(255, 116, 116), rgb(153, 146, 255));
+  padding: 0 3vw;
+  position: fixed;
+  width: 100%;
+}
+.topBarLeft {
+  flex: 2;
+}
+.topBarCenter {
+  flex: 5;
+}
+.topBarRight {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profilName {
+  margin-right: 1rem;
+}
+.topBarIconContainer {
+  justify-content: space-evenly;
+}
+.topBarImage {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topBarSearch {
+  background: white;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  flex: 2;
+  height: 2rem;
+  width: 100%;
+}
+.searchInput {
+  outline: none;
+  border: none;
+  height: 100%;
+  border-radius: 3rem;
+  padding-left: 0.5rem;
+}
+.searchIcon {
+  font-size: 1.5rem !important;
+  margin-left: 1rem;
+}
+.topBarLogo {
+  flex: 1;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.iconItem {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.iconItem:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
